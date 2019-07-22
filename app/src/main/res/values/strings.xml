@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Baking APP</string>
+    <string name="btn_label_previous">PREVIOUS</string>
+    <string name="btn_next_label">NEXT</string>
+    <string name="textview_ingredient_heading">INGREDIENTS</string>
+    <string name="appwidget_text">Favourite Recipe Ingredients</string>
+    <string name="add_widget">Add widget</string>
+    <string name="tv_step_heading">STEPS</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Menu Strings -->
+    <string name="item_nutella_pie">Nutella Pie</string>
+    <string name="item_brownies">Brownies</string>
+    <string name="item_yellow_cake">Yellow Cake</string>
+    <string name="item_cheesecake">Cheesecake</string>
+
+</resources>

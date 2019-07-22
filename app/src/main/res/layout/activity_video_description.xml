@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/video_description_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/cardview_default_elevation"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            android:padding="8dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/btn_label_previous"
+                    android:onClick="buttonPreviousClick"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:theme="@style/FlatButtonStyle"/>
+
+                <!-- style="?android:attr/borderlessButtonStyle" -->
+                <TextView
+                    android:id="@+id/tv_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="0"
+                    style="@style/TextAppearance.AppCompat.Title"/>
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/btn_next_label"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:theme="@style/FlatButtonStyle"
+                    android:onClick="buttonNextClick"
+                    android:layout_gravity="end"/>
+            </FrameLayout>
+        </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+</layout>

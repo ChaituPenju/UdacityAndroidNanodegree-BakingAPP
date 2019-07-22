@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_nutella"
+        android:title="@string/item_nutella_pie"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item_brownie"
+        android:title="@string/item_brownies"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item_yellow"
+        android:title="@string/item_yellow_cake"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item_cheese"
+        android:title="@string/item_cheesecake"
+        app:showAsAction="never"/>
+</menu>

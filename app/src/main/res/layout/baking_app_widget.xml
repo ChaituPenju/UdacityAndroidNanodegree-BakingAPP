@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/tv_recipe_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#fff"
+        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/lv_ingredient_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#000"
+        android:background="#fff"
+        android:dividerHeight="2dp"
+        tools:listitem="@layout/ingredient_items_list"/>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:background="#6f07d1"
+        android:text="@string/tv_step_heading"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#09d102"/>
+
+    <ListView
+    android:id="@+id/lv_step_frag"
+    android:background="#ce0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:nestedScrollingEnabled="true"
+    android:padding="8dp" />
+
+    </LinearLayout>
+
+</layout>
